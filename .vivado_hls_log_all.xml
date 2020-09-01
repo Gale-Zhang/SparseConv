@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sparseConv/bias_stream_TDEST' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:40.270+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sparseConv/bias_stream_TID' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:40.152+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sparseConv/bias_stream_TLAST' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:40.106+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sparseConv/bias_stream_TUSER' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:40.079+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sparseConv/bias_stream_TSTRB' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:40.025+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sparseConv/bias_stream_TKEEP' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:39.983+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sparseConv/bias_stream_TREADY' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:39.915+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sparseConv/bias_stream_TVALID' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:39.889+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sparseConv/bias_stream_TDATA' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:39.869+0800" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] The II Violation in module 'sparseConv': Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)&#xD;&#xA;   between 'store' operation (sparseConv/sparseConv.h:52->sparseConv/sparseConv.cpp:50) of variable 'tmp_32_i', sparseConv/sparseConv.h:52->sparseConv/sparseConv.cpp:50 on array 'out_buffer', sparseConv/sparseConv.cpp:33 and 'load' operation ('out_buffer_load', sparseConv/sparseConv.h:52->sparseConv/sparseConv.cpp:50) on array 'out_buffer', sparseConv/sparseConv.cpp:33." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:38.133+0800" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-65] Unable to satisfy pipeline directive: Loop contains subloop(s) not being unrolled or flattened." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:37.848+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-2' (sparseConv/sparseConv.cpp:36:9) in function 'sparseConv' : &#xD;&#xA;&#xD;&#xA;the outer loop is not a perfect loop because there is nontrivial logic in the loop header." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:37.074+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-2.1' (sparseConv/sparseConv.cpp:41:3) in function 'sparseConv' : &#xD;&#xA;&#xD;&#xA;the outer loop is not a perfect loop because there is nontrivial logic before entering the inner loop." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:36.474+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-2.1.1' (sparseConv/sparseConv.cpp:45:18) in function 'sparseConv' : &#xD;&#xA;&#xD;&#xA;the outer loop is not a perfect loop because there is nontrivial logic before entering the inner loop." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:36.459+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-1' (sparseConv/sparseConv.h:50) in function 'PE::updateBuffer' completely: variable loop bound." projectName="sparseConv" solutionName="solution1" date="2020-04-14T19:38:35.523+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

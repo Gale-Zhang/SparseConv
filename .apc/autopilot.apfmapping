@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="sparseConv.cpp" path="E:\ZCU106\StudyDemos\sparseConv\sparseConv.cpp"/>
+    <originFiles name="sparseConv.h" path="E:\ZCU106\StudyDemos\sparseConv\sparseConv.h"/>
+  </source>
+  <testbench>
+    <originFiles name="testSparseConv.cpp" path="E:\ZCU106\StudyDemos\sparseConv\testSparseConv.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
